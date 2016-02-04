@@ -2,7 +2,7 @@ From Bits
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][build-image]][build-url] [![Coverage Status][coverage-image]][coverage-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> Creates a [single-precision floating-point number][ieee754] from a [IEEE 754 literal bit representation][float32-bits].
+> Creates a [single-precision floating-point number][ieee754] from an [IEEE 754 literal bit representation][float32-bits].
 
 
 ## Installation
@@ -20,7 +20,7 @@ var fromBits = require( 'math-float32-from-bits' );
 
 #### fromBits( bstr )
 
-Creates a [single-precision floating-point number][ieee754] from a [IEEE 754 literal bit representation][float32-bits].
+Creates a [single-precision floating-point number][ieee754] from an [IEEE 754 literal bit representation][float32-bits].
 
 ``` javascript
 var bstr = '01000000100000000000000000000000';
